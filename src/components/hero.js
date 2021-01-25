@@ -9,7 +9,8 @@ function Hero() {
           <p style={Styles.sentenceTwo}>I'm a web and mobile developer. I create POCs for fun!</p>
           <button style={Styles.readButton}>Read More</button>
       </div>
-      {/* /* show a paragraph and change height for about page */ }
+      {/* /* show a paragraph and change height for about page
+              if page name is about page, include these elements */ }
     </div>
   );
 }
