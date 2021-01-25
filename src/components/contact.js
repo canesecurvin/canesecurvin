@@ -1,9 +1,10 @@
 import React from 'react';
 import Button from './button';
+import styles from './styles/contact.css';
 
 function Contact() {
   return (
-    <div className="contact" style={Style.contact}>
+    <div className="contact" style={styles.contact}>
       <div style={Style.nameEmail}> 
         <div style={Style.nameEmailBox}><p>name</p></div>
         <div style={Style.nameEmailBox}><p>email</p></div>

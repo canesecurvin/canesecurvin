@@ -1,0 +1,48 @@
+
+.navigation {
+    display:  flex ;
+    flex-direction:  row ;
+    height:  auto ;
+    width:  100% ;
+    justify-content:  flex-start ;
+  }
+  @media only screen and (max-width: 667px) {
+    .navigation {
+        display:  flex ;
+        flex-direction:  column ;
+        height:  auto ;
+        width:  100% ;
+        justify-content:  center;
+    }
+    
+}
+  .logo {
+    width:  auto ;
+    height:  100% ;
+    padding-left:  3em ;
+  }
+
+  .pageLinks {
+    width:  70% ;
+    height:  100% ;
+    padding-right:  5% ;
+    padding-top:  1% ;
+    display:  flex ;
+    flex-direction:  row ;
+    justify-content:  flex-end ;
+  }
+  @media only screen and (max-width: 667px) {
+    .pageLinks {
+        width:  100% ;
+    height:  100% ;
+    display:  flex ;
+    flex-direction:  row ;
+    justify-content:  center;
+    }
+}
+  .links{
+    color:  gray ;
+    font-size:  20px ;
+    margin-left:  10px ;
+    margin-right:  10px 
+  }

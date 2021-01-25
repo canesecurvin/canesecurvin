@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './styles/navigation.css';
 
 function Navigation() {
   return (
-    <div className="navigation" style={Styles.navigation}>
-      <div className="logo" style={Styles.logo}>
-        <img alt="logo" src={require('../assets/logo-name.png')} style={{height: "auto", width: "20vw"}}></img>
+    <div className="navigation" style={styles.navigation}>
+      <div className="logo" style={styles.logo}>
+        <img alt="logo" src={require('../assets/logo-name.png')} style={{height: "auto", width: "45%"}}></img>
       </div>
-      <div className="pageLinks" style={Styles.pageLinks}>
+      <div className="pageLinks" style={styles.pageLinks}>
         {/* <a href=""style={Styles.links}>ABOUT ME</a>
         <a style={Styles.links}>PORTFOLIO</a>
         <a style={Styles.links}>CONTACT</a> */}
